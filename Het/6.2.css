@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    /* background-color: aqua; */
+    height: 500px;
+}
+
+.nav{
+    height: 100px;
+   
+}
+
+
+.navimg{
+    background-image: url(microsoft-windows-xp-professional-logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.baju{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+.sideleft{
+    background-color: bisque;
+    width: 200px;
+    text-align: center;
+}
+.home{
+    height: 100px;
+    border: 2px solid green;
+    width: 200px;
+}
+
+.khali{
+    height: 10px;
+}
+
+.sideright{
+    background-color: aquamarine;
+    width: 700px;
+}
+.upar{
+    background-image: url(image.jfif);
+    background-image: url(image.jfif);
+}

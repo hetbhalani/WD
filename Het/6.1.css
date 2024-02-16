@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.back{
+background-color: rgb(107, 216, 255);
+float: left;
+height: 500px;
+width: 100%;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.head{
+background-color: purple;
+width: 98%;
+height: 20px;
+color: white;
+}
+
+.cont{
+    background-color: rgb(255, 174, 0);
+    height: 400px;
+    width: 98%;
+}
+
+
+.bars{
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.entry{
+    background-color: black;
+    height: 25px;
+    width: 100%;
+    margin: 10px;
+    color: white;
+    
+}
+
+.side{
+    background-color: black;
+    height: 105px;
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+}
+footer{
+    width: 98%;
+    background-color: blue;
+    color: white;
+}
