@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    position: relative;
+    background-color: rgb(196, 67, 177);
+    height: 100vh;
+}
+
+.one{
+    position: absolute;
+    animation-name: first;
+    animation-duration: 13s;
+    height: 10%;
+    width: 5%;
+    background-color: rgb(255, 163, 194);
+    border-radius: 50%;
+    animation-timing-function: linear;
+}
+
+@keyframes first {
+    from{
+        top: 45%;
+        left: 0%;
+    }
+    25%{
+        top: 45%;
+        left: 95%;
+    }
+    50%{
+        top: 45%;
+        left: 0%;
+    }
+    75%{
+        top: 45%;
+        left: 95%;
+    }
+    100%{
+        top: 45%;
+        left: 45%;
+    }
+}
+
+.two{
+    position: absolute;
+    animation-name: second;
+    animation-duration: 13s;
+    height: 10%;
+    width: 5%;
+    background-color: rgb(252, 98, 36);
+    border-radius: 50%;
+    animation-timing-function: linear;
+}
+
+@keyframes second {
+    25%{
+        top: 45%;
+        left: 95%;
+    }
+}

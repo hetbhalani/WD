@@ -1,0 +1,18 @@
+body{
+    position: relative;
+}
+
+.one{
+    height: 100px;
+    width: 100px;
+    animation-name: first;
+    animation-duration: 5s;
+}
+@keyframes first {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}

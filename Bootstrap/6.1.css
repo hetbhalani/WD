@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+.back{
+background-color: rgb(107, 216, 255);
+height: 95vh;
+padding-left: 5%;
+}
+
+.head{
+background-color: purple;
+width: 95%;
+height: 8%;
+color: white;
+}
+
+.cont{
+    background-color: rgb(255, 174, 0);
+    height: 81%;
+    width: 95%;
+}
+
+
+.bars{
+    height: 10%;
+    width: 60%;
+    color: white;
+    float: left;
+}
+.entry{
+    margin-top: 2%;
+    background-color: black;
+}
+
+@media (max-width: 750px) {
+   .bars{width: 100%;}
+}
+
+.side{
+    background-color: black;
+    height: 16%;
+    width: 30%;
+    margin-top: 1%;
+    float: right;
+    color: white;
+    margin-bottom: 20%;
+}
+
+@media (max-width: 750px) {
+    .side{width: 100%;
+        margin-top: 5%;
+    }
+ }
+footer{
+    width: 95%;
+    background-color: blue;
+    color: white;
+    height: 8%;
+}
